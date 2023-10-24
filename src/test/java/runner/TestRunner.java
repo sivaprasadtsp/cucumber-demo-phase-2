@@ -5,7 +5,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="C:\\Users\\sivap\\eclipse-workspace\\Lesson5-CucumberDemo\\src\\test\\java\\features\\Hooks.feature",
+@CucumberOptions(features="C:\\Users\\sivap\\eclipse-workspace\\Lesson5-CucumberDemo\\src\\test\\java\\features\\starhealth.feature",
    				 glue= {"steps"},
 				dryRun=false,
 				plugin={"pretty",
@@ -17,7 +17,7 @@ import io.cucumber.junit.CucumberOptions;
 		    		// only scenarios having any of  the tags login or logout should run
 		 //  tags = "not @logout" // avoid logout scenario and run the rest of the scenarios
 		// tags = "@regression or @smoke or @functional" 
-						 tags = "@regression"
+				tags="@training or @simplilearn"
 				// all scenarios with tag regression will run
 		
 		

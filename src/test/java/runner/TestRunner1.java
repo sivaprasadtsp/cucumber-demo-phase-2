@@ -5,7 +5,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="C:\\Users\\sivap\\eclipse-workspace\\Lesson5-CucumberDemo\\src\\test\\java\\features\\Hooks.feature",
+@CucumberOptions(features="C:\\Users\\sivap\\eclipse-workspace\\Lesson5-CucumberDemo\\src\\test\\java\\features\\starhealth.feature",
 				 glue= {"steps"},
 				 plugin= {"html:target/Cucumberreport.html",
 						 "pretty",
@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 						"timeline:test-output-thread/"		
 				},
 				 
-				 tags = "@regression" 
+				 tags = "@training or @simplilearn" 
 				 
 		)
 public class TestRunner1 {

@@ -1,4 +1,4 @@
 $(document).ready(function() {
-CucumberHTML.timelineItems.pushArray([{"id":"e40b3d9c-c4c8-42b6-ab2c-29819cb602cf","feature":"Testing on NinaDemo application","scenario":"Search","start":1698048483167,"group":1,"content":"","tags":"@all,@regression,","end":1698048487092,"className":"passed"},{"id":"f92892cf-024c-4af9-a74b-9a348c0d3f55","feature":"Testing on NinaDemo application","scenario":"Cart","start":1698048487118,"group":1,"content":"","tags":"@all,@regression,","end":1698048489487,"className":"passed"}]);
+CucumberHTML.timelineItems.pushArray([{"id":"9960b261-e5f1-4dcb-bfab-edbf468703ed","feature":"Phase End Project","scenario":"Starhealth HomePage test","start":1698126731314,"group":1,"content":"","tags":"@training,","end":1698126761228,"className":"passed"},{"id":"229aa1ba-3b1f-413e-856f-98b85c266f39","feature":"Phase End Project","scenario":"Plan Page","start":1698126761246,"group":1,"content":"","tags":"@simplilearn,","end":1698126768504,"className":"passed"}]);
 CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[main,5,main]"}]);
 });
